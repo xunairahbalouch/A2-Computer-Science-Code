@@ -1,0 +1,11 @@
+Numbers = [10, 32, 24, 56, 75, 86]
+
+New_array = []
+opposite_index = 5 
+for x in range(6):
+    New_array.append(Numbers[opposite_index])
+    opposite_index = opposite_index - 1
+
+
+print(New_array)   
+
