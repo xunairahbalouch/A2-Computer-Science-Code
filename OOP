@@ -1,16 +1,43 @@
-classVehicle():
-    #PRIVATE ID:STRING
-    #PRIVATE MaxSpeed:INTEGER
+class Vehicle():
+    #PRIVATE ID : STRING
+    #PRIVATE MaxSpeed : INTEGER
     #PRIVATE IncreaseAmount: INTEGER
-    #PRIVATE :HorizontalPosition:INTEGER
+    #PRIVATE HorizontalPosition : INTEGER
 
-def__init__(self, IDP, MaxSpeedIDP, IncreaseAmountP):
-    self.__ID= IDP
-    self.__MaxSpeed= MaxSpeedIDP
-    self.__CurrentSpeed= 0
-    self.__HorizontalPosition= 0
+   def__init__(self, IDP, MaxSpeedIDP, IncreaseAmountP)
+   self.__ID = IDP
+   self.__MaxSpeed = MaxSpeedIDP
+   self.__CurrentSpeed = 0
+   self.__HorizontalPosition = 0
+    
+#b part:
 
-IncreasedSpeed( MaxSpeed):
-GetCurrentSpeed[[IncreasedSpeed-MaxSpeed]]:
-Returns GetCurrentSpeed
+def GetCurrentSpeed(self):
+       return self.__CurrentSpeed
+def GetIncreasedAmount(self):
+       return self.__IncreaseAmount
+def HorizontalPosition(self):
+       return self.__HorizontalPosition
+def GetMaxSpeed(self):
+       return self.__MaxSpeed
+    
+#part c:
+   
+def SetCurrentSpeed(self, NewCurrentSpeed):
+        self.__NewCurrentSpeed
+def SetHorizontalPosition(self, HorizontalP):
+         self.__HorizontalPosition = HorizontalP 
 
+def IncreaseSpeed(self):
+        self.__CurrentSpeed = self.__CurrentSpeed + self.__IncreaseAmount
+        if self.__CurrentSpeed > self.__MaxSpeed:
+               self.__CurrentSpeed = self.__Maxspeed
+self.__HorizontalPosition = self.__HorizontalPosition + self.__CurrentSpeed
+
+               
+
+
+
+   
+    
+    
