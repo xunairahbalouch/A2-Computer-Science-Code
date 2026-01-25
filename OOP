@@ -1,0 +1,16 @@
+classVehicle():
+    #PRIVATE ID:STRING
+    #PRIVATE MaxSpeed:INTEGER
+    #PRIVATE IncreaseAmount: INTEGER
+    #PRIVATE :HorizontalPosition:INTEGER
+
+def__init__(self, IDP, MaxSpeedIDP, IncreaseAmountP):
+    self.__ID= IDP
+    self.__MaxSpeed= MaxSpeedIDP
+    self.__CurrentSpeed= 0
+    self.__HorizontalPosition= 0
+
+IncreasedSpeed( MaxSpeed):
+GetCurrentSpeed[[IncreasedSpeed-MaxSpeed]]:
+Returns GetCurrentSpeed
+
