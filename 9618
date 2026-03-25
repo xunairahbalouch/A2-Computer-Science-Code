@@ -1,0 +1,8 @@
+A computer game is bbeing ddesigned taht will include different vehicles. A pototype for the game is being developed using object oriented programming.
+#Session A
+  class Vehicle()
+#PRIVATE ID: STRING
+#PRIVATE MaxSpeed: INTEGER
+#PRIVATE currentspeed: INTEGER
+#PRIVATE IncreaseAmount: INTEGER
+#PRIVATE HorizontalPosition
