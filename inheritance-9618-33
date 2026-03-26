@@ -1,0 +1,12 @@
+class Helicopter(Vehicle) 
+#Private Attribute Declarations:
+#self.__VerticlePostion : INTEGER
+#self.__VerticleHeight : INTEGER
+#self.__IncreaseAmount : INTEGER
+
+def.__init__(MaxHeight, ID, MaxSpeed, self, VerticalChange, IncreaseAmount
+
+super.__init__(ID, MaxSpeed, IncreaseAmount)
+self.__VerticleChange = VerticleChange
+self.__MaxHeight = MaxHeight
+self.__VerticlePostion = 0
